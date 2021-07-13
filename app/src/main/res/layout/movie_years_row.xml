@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardBackgroundColor="#714343"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/years"
+            android:layout_width="wrap_content"
+            android:text="2021"
+            android:textSize="21dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
